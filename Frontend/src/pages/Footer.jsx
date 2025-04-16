@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import React from "react";
 
 export default function Footer() {
   return (
@@ -16,22 +17,22 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <Link href="/settings" className="hover:text-white">
+                <Link to="/settings" className="hover:text-white">
                   Settings
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-white">
+                <Link to="/about" className="hover:text-white">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="hover:text-white">
+                <Link to="/faq" className="hover:text-white">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/history" className="hover:text-white">
+                <Link to="/history" className="hover:text-white">
                   History
                 </Link>
               </li>
@@ -43,7 +44,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li>
                 <Link
-                  href="https://hedera.com"
+                  to="https://hedera.com"
                   target="_blank"
                   className="hover:text-white"
                 >
@@ -52,7 +53,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://github.com/msk-robin/hashgraph"
+                  to="https://github.com/msk-robin/hashgraph"
                   target="_blank"
                   className="hover:text-white"
                 >
@@ -60,7 +61,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="hover:text-white">
+                <Link to="/privacy" className="hover:text-white">
                   Privacy Policy
                 </Link>
               </li>
