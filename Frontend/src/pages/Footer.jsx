@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white mt-12">
@@ -14,19 +16,24 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="/about" className="hover:text-white">
+                <Link href="/settings" className="hover:text-white">
+                  Settings
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" className="hover:text-white">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/faq" className="hover:text-white">
+                <Link href="/faq" className="hover:text-white">
                   FAQ
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/history" className="hover:text-white">
+                <Link href="/history" className="hover:text-white">
                   History
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -35,27 +42,27 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a
+                <Link
                   href="https://hedera.com"
                   target="_blank"
                   className="hover:text-white"
                 >
                   Hedera Docs
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://github.com/msk-robin/hashgraph"
                   target="_blank"
                   className="hover:text-white"
                 >
                   GitHub
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/privacy" className="hover:text-white">
+                <Link href="/privacy" className="hover:text-white">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
