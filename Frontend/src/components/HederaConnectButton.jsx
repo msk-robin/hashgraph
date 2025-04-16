@@ -86,9 +86,7 @@ const HederaConnectButton = () => {
     const appMetadata = {
       name: "Hashguard",
       description: "Hashguard test case",
-      icons: [
-        "https://images.unsplash.com/photo-1496200186974-4293800e2c20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-      ],
+      icons: ["../assets/hashguard.svg"],
       url: "localhost",
     };
 
