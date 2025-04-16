@@ -86,9 +86,7 @@ const HederaConnectButton = () => {
     const appMetadata = {
       name: "Hashguard",
       description: "Hashguard test case",
-      icons: [
-        "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22hashguard.svg%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%2C%22signedurl_expire%22%3A%222028-04-09T13%3A10%3A07.471Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F544450bec9064b5b%2Fhashguard.svg%3FExpires%3D1838898607%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DBYXb386SKgfiW-wdnxIoa4p4~MAkH2J4fCYAcFv09w9Reb8K5uAzxtDAJQNWOdfva~ErUd71MISwWgL78Yz15RHOWQoVoZykBtBfC8Gradr6ZBizhV1XRVWDk56HGurrw07BR2AiTDzok~bd0HgoXq61lGRMh4j4De7Sw3l3~djWjYRgPj72pHv~y~7VnoovppZ0Nynu0CvqmYNnM8tx7AFxlyxvk8PqpygYQZxsaRu23tyDWjdxpo0vteWthxA3TrS0R6qFg5KuREzG9O79obo5xYxJlOf5Z~DWVGtxnOHdDkeOn84hTP3YC-WcxLfM3xOec0h5TZp8x9yM0tLQuA__%22%7D",
-      ],
+      icons: ["../assets/hashguard.svg"],
       url: "localhost",
     };
 
