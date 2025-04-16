@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { HederaProvider } from "./contexts/HederaContext.jsx";
 import ErrorBoundary from "./components/ErrorBoundary";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 console.log("Rendering application...");
 
